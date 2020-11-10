@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MPS_Assignment_6.MainPage">
+
+    <StackLayout>
+
+        
+<Label Text="Mi Bank" HorizontalTextAlignment="Center" TextColor="DarkBlue" FontSize="34" />
+        <Entry Placeholder ="Please enter your amount" Keyboard="Numeric" />
+        
+
+        <Entry Keyboard="Numeric" Placeholder="Enter your amount here"/>
+        <Entry  Placeholder="Reason for " Margin="0,25,0,1" MaxLength="36" WidthRequest="500"/>
+        <Button Text=" Deposit" Clicked="Button_Clicked"/>
+
+
+        <Button Text="Withdraw" />
+            <Button Text="Display Transaction History" Clicked="Button_Clicked_1"/>
+           
+    </StackLayout>
+
+</ContentPage>
+
